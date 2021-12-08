@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <stdio.h>
 
 using namespace std;
 
@@ -28,7 +27,7 @@ int main() {
 
         //Print the translated word/sentence
         i[0] = toupper(i[0]);
-        printf("%s ", i.c_str());
+        cout << i << " ";
     }
 
     return 0;
